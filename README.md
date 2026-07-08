@@ -27,6 +27,7 @@ Updates then arrive through the normal `xbps-install -Su`.
 | Package | Description |
 |---|---|
 | `honey` | Tiling Wayland compositor on wlroots (master-stack, dynamic config) |
+| `honey-waybar` | Waybar modules for the honey compositor |
 
 ## How it is built
 
