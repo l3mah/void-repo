@@ -17,7 +17,7 @@ The first install asks you to accept this repository's signing key. The
 fingerprint should be:
 
 ```
-02:2e:87:d4:21:f4:3f:fa:37:de:3a:3f:a1:98:33:62
+86:d4:ee:1f:be:7d:f6:e2:83:8e:8f:cd:14:ee:be:4c
 ```
 
 Updates then arrive through the normal `xbps-install -Su`.
