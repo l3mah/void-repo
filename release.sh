@@ -6,7 +6,7 @@
 #
 # Overridable environment: VOID_PACKAGES, PRIVKEY, SIGNEDBY, ARCH.
 
-VOID_PACKAGES=${VOID_PACKAGES:-$HOME/dev/void-packages}
+VOID_PACKAGES=${VOID_PACKAGES:-$HOME/dev/l3mah/void-packages}
 PRIVKEY=${PRIVKEY:-$HOME/.ssh/xbps-signing.pem}
 SIGNEDBY=${SIGNEDBY:-"Maxence Hamel"}
 ARCH=${ARCH:-x86_64}
