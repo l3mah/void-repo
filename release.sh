@@ -25,7 +25,8 @@ for pkgver in "$@"; do
 	fi
 	cp "$pkg" "$ARCH/"
 	xbps-rindex --add "$ARCH/$pkgver.$ARCH.xbps"
-	xbps-rindex --force --privkey "$PRIVKEY" --sign-pkg "$ARCH/$pkgver.$ARCH.xbps"
+	rm -f "$ARCH/$pkgver.$ARCH.xbps.sig2"
+	xbps-rindex --privkey "$PRIVKEY" --sign-pkg "$ARCH/$pkgver.$ARCH.xbps"
 done
 xbps-rindex --privkey "$PRIVKEY" --sign --signedby "$SIGNEDBY" "$ARCH"
 
